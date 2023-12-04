@@ -1,6 +1,6 @@
 # AutoPrepender
 
-AutoPrepender is a Script designed to automate the process of creating and connecting prepend objects in Max MSP. This tool is especially useful when creating VST wrappers for Ableton, where each parameter needs to be connected to a prepend object and the prepend object to a vst~ object - a process that can be quite tedious.
+AutoPrepender is a Script written to automate the process of creating and connecting prepend objects in Max MSP. This tool is especially useful when creating VST wrappers for Ableton, where each parameter needs to be connected to a prepend object and the prepend object to a vst~ object - a process that can be quite tedious.
 
 ## Input File:
 The script requires an .txt file as input containing the parameter names, each on a new Line. You can get the parameters from the vst~ object with your plugin loaded and use OCR to save them in a file. (Maybe there is a better way. I don't know.)
