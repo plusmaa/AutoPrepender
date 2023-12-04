@@ -22,6 +22,7 @@ Windows:
 4. Run the script with the command ./Create Prepend from List.sh input.txt, where input.txt is your file with the parameter names.
 
 
-The script will generate a JSON structure that you can paste into Max MSP. After pasting, you can select all prepend objects and distribute them vertically.
+The script will generate a JSON structure that you can paste into Max MSP. After pasting, you can select all prepend objects and distribute them vertically. 
+Now just create an receive object with the same name as the send object and connect it to your vst~.
 
 ![Screenshot after pasting and distributing](screen.png)
