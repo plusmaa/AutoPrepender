@@ -20,7 +20,6 @@ Windows:
 2. Install Git Bash if you haven't already and open it.
 3. Navigate to the directory where the script is located using the cd command.
 4. Run the script with the command ./Create Prepend from List.sh input.txt, where input.txt is your file with the parameter names.
-Input File
 
 
 The script will generate a JSON structure that you can paste into Max MSP. After pasting, you can select all prepend objects and distribute them vertically.
