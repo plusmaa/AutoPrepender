@@ -31,7 +31,7 @@ id_counter=100
 echo "  {" >> $output_file
 echo "    \"box\" : {" >> $output_file
 echo "      \"maxclass\" : \"newobj\"," >> $output_file
-echo "      \"text\" : \"send vst1\"," >> $output_file
+echo "      \"text\" : \"send ---vst1\"," >> $output_file
 echo "      \"id\" : \"obj-$id_counter\"," >> $output_file
 echo "      \"numinlets\" : 1," >> $output_file
 echo "      \"patching_rect\" : [ 260.464424052238485, 108.368140158653262, 55.0, 20.0 ]," >> $output_file
