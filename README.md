@@ -1,29 +1,33 @@
 # AutoPrepender
 
-AutoPrepender is a Script written to automate the process of creating and connecting prepend objects in Max MSP. This tool is especially useful when creating VST wrappers for Ableton, where each parameter needs to be connected to a prepend object and the prepend object to a vst~ object - a process that can be quite tedious.
+AutoPrepender is a script for automating the creation and connection of prepend objects in Max MSP, useful for creating VST wrappers in Ableton. It requires a .txt file with parameter names as input.
 
-## Input File:
-The script requires an .txt file as input containing the parameter names, each on a new Line. You can get the parameters from the vst~ object with your plugin loaded and use OCR to save them in a file. (Maybe there is a better way. I don't know.)
+## Usage
 
+Download "AutoPrepender.sh".
 
-## How To Use:
+### Mac:
+Open Terminal and navigate to the script's directory:
 
-MaxPrepender is a bash script that can be run on Mac, Windows and Linux.
+`bash
+cd /path/to/script`
 
-Mac:
-1. Download "Create Prepend from List.sh"
-2. Open Terminal and navigate to the directory where the script is located using the cd command.
-3. Use the command chmod u+x ./Create\ Prepend\ from\ List.sh if necessary
-4. Run the script with the command ./Create\ Prepend\ from\ List.sh input.txt, where input.txt is your file with the parameter names.
+Run this command if needed:
 
-Windows:
-1. Download "Create Prepend from List.sh"
-2. Install Git Bash if you haven't already and open it.
-3. Navigate to the directory where the script is located using the cd command.
-4. Run the script with the command ./Create Prepend from List.sh input.txt, where input.txt is your file with the parameter names.
+`bash
+chmod u+x ./AutoPrepender.sh`
 
+Execute the script:
+`bash
+./AutoPrepender.sh input.txt`
 
-The script will generate a JSON structure that you can paste into Max MSP. After pasting, you can select all prepend objects and distribute them vertically. 
-Now just create an receive object with the same name as the send object and connect it to your vst~.
+### Windows:
+Install Git Bash if not already done, navigate to the script's directory:
+`bash
+cd /path/to/script`
 
-![Screenshot after pasting and distributing](screen.png)
+Run the script:
+`bash
+./AutoPrepender.sh input.txt`
+
+The script generates a JSON structure to paste into Max MSP. After pasting, select all prepend objects, distribute them vertically, and connect an receive object with the same name as the send object to your vst~.
