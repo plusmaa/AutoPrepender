@@ -7,14 +7,11 @@ AutoPrepender is a script for automating the creation and connection of prepend 
 Download "AutoPrepender.sh".
 
 ### Mac:
-Open Terminal and navigate to the script's directory: `bash
-cd /path/to/script`
+Open Terminal and navigate to the script's directory: `cd /path/to/script`
 
-Run this command if needed: `bash
-chmod u+x ./AutoPrepender.sh`
+Run this command if needed: `chmod u+x ./AutoPrepender.sh`
 
-Execute the script: `bash
-./AutoPrepender.sh input.txt`
+Execute the script: `./AutoPrepender.sh input.txt`
 
 ### Windows:
 Install Git Bash if not already done, navigate to the script's directory: `bash
