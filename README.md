@@ -20,4 +20,5 @@ cd /path/to/script`
 Run the script: `bash
 ./AutoPrepender.sh input.txt`
 
+
 The script generates a JSON structure to paste into Max MSP. After pasting, select all prepend objects, distribute them vertically, and connect an receive object with the same name as the send object to your vst~.
