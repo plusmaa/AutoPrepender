@@ -13,7 +13,8 @@ MaxPrepender is a bash script that can be run on Mac, Windows and Lin
 Mac:
 1. Download "Create Prepend from List.sh"
 2. Open Terminal and navigate to the directory where the script is located using the cd command.
-3. Run the script with the command ./Create\ Prepend\ from\ List.sh input.txt, where input.txt is your file with the parameter names.
+3. Use the command chmod u+x ./Create\ Prepend\ from\ List.sh if necessary
+4. Run the script with the command ./Create\ Prepend\ from\ List.sh input.txt, where input.txt is your file with the parameter names.
 
 Windows:
 1. Download "Create Prepend from List.sh"
