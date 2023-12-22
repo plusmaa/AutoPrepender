@@ -7,22 +7,20 @@ AutoPrepender is a script for automating the creation and connection of prepend 
 Download "AutoPrepender.sh".
 
 ### Mac:
-Open Terminal and navigate to the script's directory:
-
-`bash
+Open Terminal and navigate to the script's directory: `bash
 cd /path/to/script`
 
-Run this command if needed:`bash
+Run this command if needed: `bash
 chmod u+x ./AutoPrepender.sh`
 
-Execute the script:`bash
+Execute the script: `bash
 ./AutoPrepender.sh input.txt`
 
 ### Windows:
-Install Git Bash if not already done, navigate to the script's directory:`bash
+Install Git Bash if not already done, navigate to the script's directory: `bash
 cd /path/to/script`
 
-Run the script:`bash
+Run the script: `bash
 ./AutoPrepender.sh input.txt`
 
 The script generates a JSON structure to paste into Max MSP. After pasting, select all prepend objects, distribute them vertically, and connect an receive object with the same name as the send object to your vst~.
